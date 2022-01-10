@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	DWORD offset = 0x11;
 
 	char szOffset[8];
-	sprintf_s(szOffset, "%d", offset);
+	printf(szOffset, "%d", offset);
 
 	printf("[*]Try to set SecurityDescriptor... ");
 
